@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruang Class Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #98A382;
+            padding: 15px;
+            border-radius: 15px;
+            margin: 10px;
+        }
+        .logo img {
+            width: 100px; /* Sesuaikan ukuran logo navbar */
+        }
+        .nav-links a {
+            text-decoration: none;
+            padding: 10px 20px;
+            color: black;
+            font-weight: bold;
+            border-radius: 20px;
+            transition: 0.3s;
+        }
+        .nav-links a:hover, .nav-links a.active {
+            background-color: yellow;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            gap: 30px; /* Menambahkan jarak antara gambar dan deskripsi */
+        }
+        .image-container img {
+            width: 300px; /* Sesuaikan ukuran gambar */
+        }
+        .text-container {
+            background-color: #98A382;
+            padding: 20px;
+            border-radius: 15px;
+            color: white;
+            text-align: left;
+            width: 300px;
+        }
+        .contact-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: yellow;
+            color: black;
+            font-weight: bold;
+            border-radius: 20px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .contact-btn:hover {
+            background-color: limegreen;
+        }
+        footer {
+            margin-top: 50px;
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+    <script>
+        function setActiveLink(event) {
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        }
+    </script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="ss logos.PNG" alt="Logo"> <!-- Sesuaikan dengan file gambar logo -->
+        </div>
+        <div class="nav-links">
+            <a href="#" class="active" onclick="setActiveLink(event)">Home</a>
+            <a href="#" onclick="setActiveLink(event)">About Me</a>
+            <a href="#" onclick="setActiveLink(event)">Portofolio</a>
+            <a href="#" onclick="setActiveLink(event)">Contact</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="image-container">
+            <img src="dashboard.PNG" alt="Coding Image"> <!-- Sesuaikan dengan file gambar utama -->
+        </div>
+        <div class="text-container">
+            <h2>Ruang Class Web</h2>
+            <p>Ruang Class Web Merupakan Web Portofolio yang memberikan JASA les dan Belajar seputar Coding Untuk Anak-Anak</p>
+            <a href="#" class="contact-btn">Contact Me</a>
+        </div>
+    </div>
+    <footer>
+        copy Fernand 2025
+    </footer>
+</body>
+</html>
