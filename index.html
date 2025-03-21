@@ -19,8 +19,13 @@
             background-color: #98A382;
             padding: 15px;
             border-radius: 15px;
-            margin: 10px;
+            position: fixed;
+            top: 0; /* Memastikan navbar berada di atas */
+            left: 0;
+            width: 100%; /* Navbar mengisi seluruh lebar layar */
+            z-index: 1000; /* Memastikan navbar tetap di atas elemen lain */
         }
+
         .logo img {
             width: 120px; /* Sesuaikan ukuran logo navbar */
         }
@@ -39,8 +44,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-top: 50px;
             gap: 30px; /* Menambahkan jarak antara gambar dan deskripsi */
+            margin-top: 100px;
         }
         .image-container img {
             width: 300px; /* Sesuaikan ukuran gambar */
@@ -68,12 +73,16 @@
             background-color: #B0FD14;
         }
         footer {
-            margin-top: 120px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
             background-color: #98A382;
             color: rgb(37, 37, 37);
             padding: 10px;
             border-radius: 10px;
-            font: 15px;
+            font-size: 15px;
+            text-align: center;
         }
     </style>
     <script>
@@ -88,7 +97,7 @@
 <body>
     <div class="navbar">
         <div class="logo">
-            <img src="ss logos.PNG" alt="Logo"> <!-- Sesuaikan dengan file gambar logo -->
+            <img src="img/ss logos.PNG" alt="Logo"> <!-- Sesuaikan dengan file gambar logo -->
         </div>
         <div class="nav-links">
             <a href="index.html" class="active" onclick="setActiveLink(event)">Home</a>
@@ -99,7 +108,7 @@
     </div>
     <div class="container">
         <div class="image-container">
-            <img src="dashboard.PNG" alt="Coding Image"> <!-- Sesuaikan dengan file gambar utama -->
+            <img src="img/dashboard.PNG" alt="Coding Image"> <!-- Sesuaikan dengan file gambar utama -->
         </div>
         <div class="text-container">
             <h2>Ruang Class Web</h2>

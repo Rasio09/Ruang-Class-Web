@@ -19,7 +19,11 @@
             background-color: #98A382;
             padding: 15px;
             border-radius: 15px;
-            margin: 10px;
+            position: fixed;
+            top: 0; /* Memastikan navbar berada di atas */
+            left: 0;
+            width: 97.5%; /* Navbar mengisi seluruh lebar layar */
+            z-index: 1000; /* Memastikan navbar tetap di atas elemen lain */
         }
         .logo img {
             width: 120px; /* Sesuaikan ukuran logo navbar */
@@ -39,11 +43,14 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-top: 50px;
+            margin-top: 100px;
             gap: 30px; /* Menambahkan jarak antara gambar dan deskripsi */
         }
         .image-container img {
-            width: 300px; /* Sesuaikan ukuran gambar */
+            width: 450px; /* Sesuaikan ukuran gambar */
+            height: 350px;
+            border-radius: 10px;
+            box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3); /* Tambahkan shadow */
         }
         .text-container {
             background-color: #98A382;
@@ -88,7 +95,7 @@
 <body>
     <div class="navbar">
         <div class="logo">
-            <img src="ss logos.PNG" alt="Logo"> <!-- Sesuaikan dengan file gambar logo -->
+            <img src="img/ss logos.PNG" alt="Logo"> <!-- Sesuaikan dengan file gambar logo -->
         </div>
         <div class="nav-links">
             <a href="index.html" onclick="setActiveLink(event)">Home</a>
@@ -98,38 +105,54 @@
         </div>
     </div>
     <div class="container">
+        <div class="text-container" style="width: 80%; box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3); text-align: center; background-color: #777777; height: 80px;">
+            <h2 style="text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);">
+                BERIKUT INI ADALAH LIST DARI BEBERAPA PROJECT YANG DIKEMBANGKAN
+            </h2>
+        </div>
+    </div>
+    <div class="container">
         <div class="image-container">
-            <img src="dashboard.PNG" alt="Coding Image"> <!-- Sesuaikan dengan file gambar utama -->
+            <img src="img/bengkel_jago.PNG" alt="Coding Image"> <!-- Sesuaikan dengan file gambar utama -->
         </div>
         <div class="text-container">
-            <h2>Contact</h2>
+            <h2>1. Website BENGKEL JAGO</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dicta deleniti est, facilis reprehenderit veritatis nobis recusandae fuga impedit eius corrupti dolore dolorem deserunt sint voluptatum, dolorum, error molestiae libero.</p>
         </div>
     </div>
     <div class="container">
         <div class="image-container">
-            <img src="dashboard.PNG" alt="Coding Image"> <!-- Sesuaikan dengan file gambar utama -->
+            <img src="img/bengkel_kenzie.PNG" alt="Coding Image"> <!-- Sesuaikan dengan file gambar utama -->
         </div>
         <div class="text-container">
-            <h2>Contact</h2>
+            <h2>2. Website BENGKEL KENZIE</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dicta deleniti est, facilis reprehenderit veritatis nobis recusandae fuga impedit eius corrupti dolore dolorem deserunt sint voluptatum, dolorum, error molestiae libero.</p>
         </div>
     </div>
     <div class="container">
         <div class="image-container">
-            <img src="dashboard.PNG" alt="Coding Image"> <!-- Sesuaikan dengan file gambar utama -->
+            <img src="img/pakar_perkembangan.jpeg" alt="Coding Image"> <!-- Sesuaikan dengan file gambar utama -->
         </div>
         <div class="text-container">
-            <h2>Contact</h2>
+            <h4>3. Website SISTEM DETEKSI PERKEMBANGAN ANAK USIA DINI</h4>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dicta deleniti est, facilis reprehenderit veritatis nobis recusandae fuga impedit eius corrupti dolore dolorem deserunt sint voluptatum, dolorum, error molestiae libero.</p>
         </div>
     </div>
     <div class="container">
         <div class="image-container">
-            <img src="dashboard.PNG" alt="Coding Image"> <!-- Sesuaikan dengan file gambar utama -->
+            <img src="img/sistem_pakar.jpeg" alt="Coding Image"> <!-- Sesuaikan dengan file gambar utama -->
         </div>
         <div class="text-container">
-            <h2>Contact</h2>
+            <h2>4. Website SISTEM PERKEMBANGAN DARI CP</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dicta deleniti est, facilis reprehenderit veritatis nobis recusandae fuga impedit eius corrupti dolore dolorem deserunt sint voluptatum, dolorum, error molestiae libero.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="image-container">
+            <img src="img/angkringan.PNG" alt="Coding Image"> <!-- Sesuaikan dengan file gambar utama -->
+        </div>
+        <div class="text-container">
+            <h2>5. Website ANGKRINGAN (DESIGN)</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dicta deleniti est, facilis reprehenderit veritatis nobis recusandae fuga impedit eius corrupti dolore dolorem deserunt sint voluptatum, dolorum, error molestiae libero.</p>
         </div>
     </div>
