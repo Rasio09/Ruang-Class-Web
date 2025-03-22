@@ -8,7 +8,6 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #f1f1f1;
-            text-align: center;
             margin: 0;
             padding: 0;
         }
@@ -38,42 +37,74 @@
         .container {
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: flex-start;
             margin-top: 50px;
             gap: 30px; /* Menambahkan jarak antara gambar dan deskripsi */
+            padding: 0 20px;
         }
         .image-container img {
-            width: 300px; /* Sesuaikan ukuran gambar */
+            width: 100%; /* Menggunakan 100% lebar kontainer */
+            max-width: 400px; /* Sesuaikan ukuran gambar */
+            border-radius: 15px;
         }
         .text-container {
             background-color: #98A382;
-            padding: 20px;
+            padding: 30px;
             border-radius: 15px;
             color: white;
             text-align: left;
-            width: 50%;
-            height: 350px;
+            width: 100%;
+            max-width: 600px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         }
-        .contact-btn {
-            display: inline-block;
-            padding: 10px 20px;
+        .text-container h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .text-container p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            background-color: #fff;
+        }
+        textarea {
+            width: 100%;
+            height: 120px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            background-color: #fff;
+        }
+        button {
+            padding: 12px 25px;
             background-color: #B0FD14;
             color: black;
             font-weight: bold;
             border-radius: 20px;
-            text-decoration: none;
-            transition: 0.3s;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
         }
-        .contact-btn:hover {
-            background-color: #B0FD14;
+        button:hover {
+            background-color: #9cc117;
         }
         footer {
-            margin-top: 120px;
+            margin-top: 50px;
             background-color: #98A382;
             color: rgb(37, 37, 37);
             padding: 10px;
             border-radius: 10px;
-            font: 15px;
+            text-align: center;
+            font-size: 15px;
         }
     </style>
     <script>
@@ -97,22 +128,33 @@
             <a href="contact.html" class="active" onclick="setActiveLink(event)">Contact</a>
         </div>
     </div>
+
     <div class="container">
         <div class="image-container">
             <img src="img/dashboard.PNG" alt="Coding Image"> <!-- Sesuaikan dengan file gambar utama -->
         </div>
         <div class="text-container">
-            <h2>Contact Me</h2>
-            <p style="text-align: justify;">Contact Me ini digunakan untuk menghubungi kami jika ada yang ingin melakukan pendaftaran terlebih dahulu dan menyikronisasikan jadwal hingga tanya-tanya bisa langsung mengisi form dibawah ini.</p><br>
-            Nama : <input type="text" name="" id=""><br>
-            Nomor HP : <input type="text" name="" id=""><br>
-            Email (Jika Ada, jika tidak isi dengan (-)) : <input type="email" name="" id=""><br>
-            Tanya : <textarea name="" id="" placeholder="Isikan dengan pertanyaan"></textarea><br><br>
-
-            <button type="submit">Kirim</button>
+            <h2 style="text-align: center;">Contact Me</h2>
+            <p style="text-align: justify;">Jika Anda memiliki pertanyaan atau ingin mendaftar, silakan isi formulir kontak di bawah ini untuk menghubungi kami.</p>
             
+            <form>
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" class="input-field" placeholder="Masukkan nama lengkap" required>
+                
+                <label for="phone">Nomor HP:</label>
+                <input type="text" id="phone" name="phone" class="input-field" placeholder="Masukkan nomor HP" required>
+                
+                <label for="email">Email (Jika Ada, jika tidak isi dengan (-)):</label>
+                <input type="email" id="email" name="email" class="input-field" placeholder="Masukkan email" required>
+                
+                <label for="question">Tanya:</label>
+                <textarea id="question" name="question" class="input-field" placeholder="Tuliskan pertanyaan Anda di sini" required></textarea>
+                
+                <button type="submit">Kirim</button>
+            </form>
         </div>
     </div>
+
     <footer>
         copy Fernand 2025
     </footer>
