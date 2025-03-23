@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruang Class Web</title>
+    <title><?php echo $title; ?></title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -94,30 +94,3 @@
         }
     </script>
 </head>
-<body>
-    <div class="navbar">
-        <div class="logo">
-            <img src="img/ss logos.PNG" alt="Logo"> <!-- Sesuaikan dengan file gambar logo -->
-        </div>
-        <div class="nav-links">
-            <a href="index.html" class="active" onclick="setActiveLink(event)">Home</a>
-            <a href="about-me.html" onclick="setActiveLink(event)">About Me</a>
-            <a href="portofolio.html" onclick="setActiveLink(event)">Portofolio</a>
-            <a href="contact.html" onclick="setActiveLink(event)">Contact</a>
-        </div>
-    </div>
-    <div class="container">
-        <div class="image-container">
-            <img src="img/dashboard.PNG" alt="Coding Image"> <!-- Sesuaikan dengan file gambar utama -->
-        </div>
-        <div class="text-container">
-            <h2>Ruang Class Web</h2>
-            <p>Ruang Class Web Merupakan Web Portofolio yang memberikan JASA les dan Belajar seputar Coding Untuk Anak-Anak</p>
-            <a href="#" class="contact-btn">Contact Me</a>
-        </div>
-    </div>
-    <footer>
-        copy Fernand 2025
-    </footer>
-</body>
-</html>
