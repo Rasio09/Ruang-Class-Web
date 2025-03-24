@@ -117,17 +117,9 @@
     </script>
 </head>
 <body>
-    <div class="navbar">
-        <div class="logo">
-            <img src="img/ss logos.PNG" alt="Logo"> <!-- Sesuaikan dengan file gambar logo -->
-        </div>
-        <div class="nav-links">
-            <a href="index.html" onclick="setActiveLink(event)">Home</a>
-            <a href="about-me.html" onclick="setActiveLink(event)">About Me</a>
-            <a href="portofolio.html" onclick="setActiveLink(event)">Portofolio</a>
-            <a href="contact.html" class="active" onclick="setActiveLink(event)">Contact</a>
-        </div>
-    </div>
+    <?php
+        require("navbar.php");
+    ?>
 
     <div class="container">
         <div class="image-container">

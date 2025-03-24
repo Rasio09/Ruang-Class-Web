@@ -1,0 +1,97 @@
+/* Mengatur layout body menggunakan flexbox */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Menyusun elemen secara vertikal */
+    min-height: 100vh; /* Membuat body setinggi layar */
+}
+
+/* Navbar tetap di atas */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #98A382;
+    padding: 15px;
+    border-radius: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover, .nav-links a.active {
+    background-color: #B0FD14;
+}
+
+/* Kontainer gambar dan teks */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 100px; /* Memberi ruang setelah navbar */
+    margin-bottom: 20px; /* Memberi ruang sebelum footer */
+    flex: 1; /* Flex akan mengambil ruang sisa, memastikan footer tetap di bawah */
+}
+
+/* Gambar dalam kontainer */
+.image-container img {
+    width: 300px;
+}
+
+/* Desain kontainer teks */
+.text-container {
+    background-color: #98A382;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    text-align: left;
+    width: 50%;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #B0FD14;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #B0FD14;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #98A382;
+    color: rgb(37, 37, 37);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin-top: auto; /* Pastikan footer selalu berada di bawah */
+}
