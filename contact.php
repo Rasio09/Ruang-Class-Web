@@ -129,7 +129,7 @@
             <h2 style="text-align: center;">Contact Me</h2>
             <p style="text-align: justify;">Jika Anda memiliki pertanyaan atau ingin mendaftar, silakan isi formulir kontak di bawah ini untuk menghubungi kami.</p>
             
-            <form>
+            <form action="proses/proses-simpan-contact.php" method="POST">
                 <label for="name">Nama:</label>
                 <input type="text" id="name" name="name" class="input-field" placeholder="Masukkan nama lengkap" required>
                 
