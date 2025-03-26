@@ -6,7 +6,7 @@
     <link rel="icon" href="img/favicon.png" type="image/x-icon">
     <title>Contact</title>
     <style>
-        /* Same styling as before */
+        /* Style remains the same */
         body {
             font-family: Arial, sans-serif;
             background-color: #f1f1f1;
@@ -23,7 +23,7 @@
             margin: 10px;
         }
         .logo img {
-            width: 120px; /* Sesuaikan ukuran logo navbar */
+            width: 120px;
         }
         .nav-links a {
             text-decoration: none;
@@ -41,12 +41,12 @@
             justify-content: center;
             align-items: flex-start;
             margin-top: 50px;
-            gap: 30px; /* Menambahkan jarak antara gambar dan deskripsi */
+            gap: 30px;
             padding: 0 20px;
         }
         .image-container img {
-            width: 100%; /* Menggunakan 100% lebar kontainer */
-            max-width: 400px; /* Sesuaikan ukuran gambar */
+            width: 100%;
+            max-width: 400px;
             border-radius: 15px;
         }
         .text-container {
@@ -112,11 +112,11 @@
     <script>
         function sendMessage() {
             // Get form values
-            var name = document.getElementById("name").value;
-            var phone = document.getElementById("phone").value;
+            var name = document.getElementById("name2").value;
+            var phone = document.getElementById("phone2").value;
             var address = document.getElementById("address").value;
 
-            // Format the message
+            // Format the message with proper encoding
             var message = "Nama: " + encodeURIComponent(name) + "%0A" +
                           "No Hp: " + encodeURIComponent(phone) + "%0A" +
                           "Alamat: " + encodeURIComponent(address) + "%0A%0A" +
@@ -137,7 +137,7 @@
 
     <div class="container">
         <div class="image-container">
-            <img src="img/dashboard.PNG" alt="Coding Image"> <!-- Sesuaikan dengan file gambar utama -->
+            <img src="img/dashboard.PNG" alt="Coding Image">
         </div>
         <div class="text-container">
             <h2 style="text-align: center;">Pertanyaan</h2>
@@ -168,10 +168,10 @@
             
             <form id="contactForm2">
                 <label for="name">Nama:</label>
-                <input type="text" id="name" name="name" class="input-field" placeholder="Masukkan nama lengkap" required>
+                <input type="text" id="name2" name="name" class="input-field" placeholder="Masukkan nama lengkap" required>
                 
                 <label for="phone">Nomor HP:</label>
-                <input type="text" id="phone" name="phone" class="input-field" placeholder="Masukkan nomor HP" required>
+                <input type="text" id="phone2" name="phone" class="input-field" placeholder="Masukkan nomor HP" required>
 
                 <label for="address">Alamat:</label>
                 <input type="text" id="address" name="address" class="input-field" placeholder="Masukkan alamat" required>
