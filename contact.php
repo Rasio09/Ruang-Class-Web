@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
     <title>Contact</title>
     <style>
+        /* Same styling as before */
         body {
             font-family: Arial, sans-serif;
             background-color: #f1f1f1;
@@ -108,11 +110,23 @@
         }
     </style>
     <script>
-        function setActiveLink(event) {
-            document.querySelectorAll('.nav-links a').forEach(link => {
-                link.classList.remove('active');
-            });
-            event.target.classList.add('active');
+        function sendMessage() {
+            // Get form values
+            var name = document.getElementById("name").value;
+            var phone = document.getElementById("phone").value;
+            var address = document.getElementById("address").value;
+
+            // Format the message
+            var message = "Nama: " + encodeURIComponent(name) + "%0A" +
+                          "No Hp: " + encodeURIComponent(phone) + "%0A" +
+                          "Alamat: " + encodeURIComponent(address) + "%0A%0A" +
+                          "DAFTAR PROGRAM DI RUANG CLASS WEB";
+
+            // WhatsApp link to send the message
+            var whatsappLink = "https://wa.me/6287861674100?text=" + message;
+
+            // Redirect to WhatsApp
+            window.open(whatsappLink, '_blank');
         }
     </script>
 </head>
@@ -126,10 +140,10 @@
             <img src="img/dashboard.PNG" alt="Coding Image"> <!-- Sesuaikan dengan file gambar utama -->
         </div>
         <div class="text-container">
-            <h2 style="text-align: center;">Contact Me</h2>
+            <h2 style="text-align: center;">Pertanyaan</h2>
             <p style="text-align: justify;">Jika Anda memiliki pertanyaan atau ingin mendaftar, silakan isi formulir kontak di bawah ini untuk menghubungi kami.</p>
             
-            <form action="proses/proses-simpan-contact.php" method="POST">
+            <form id="contactForm">
                 <label for="name">Nama:</label>
                 <input type="text" id="name" name="name" class="input-field" placeholder="Masukkan nama lengkap" required>
                 
@@ -142,7 +156,27 @@
                 <label for="question">Tanya:</label>
                 <textarea id="question" name="question" class="input-field" placeholder="Tuliskan pertanyaan Anda di sini" required></textarea>
                 
-                <button type="submit">Kirim</button>
+                <button type="button" onclick="sendMessage()">Kirim Wa Admin</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="text-container" style="width:100%;">
+            <h2 style="text-align: center;">Contact</h2>
+            <p style="text-align: justify;">Jika Berminat untuk daftar atau melanjutkan langsung saja isi form berikut ini</p>
+            
+            <form id="contactForm2">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" class="input-field" placeholder="Masukkan nama lengkap" required>
+                
+                <label for="phone">Nomor HP:</label>
+                <input type="text" id="phone" name="phone" class="input-field" placeholder="Masukkan nomor HP" required>
+
+                <label for="address">Alamat:</label>
+                <input type="text" id="address" name="address" class="input-field" placeholder="Masukkan alamat" required>
+                
+                <button type="button" onclick="sendMessage()">Kirim Wa Admin</button>
             </form>
         </div>
     </div>
