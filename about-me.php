@@ -18,8 +18,8 @@ require("header.php");
             <a href="#" class="contact-btn">Contact Me</a>
         </div>
     </div>
-    <footer>
-        copy Fernand 2025
-    </footer>
+    <?php
+        require("footer.php");
+    ?>
 </body>
 </html>

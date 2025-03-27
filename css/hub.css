@@ -1,16 +1,22 @@
-/* Mengatur layout body menggunakan flexbox */
+/* Terapkan box-sizing pada semua elemen */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;  /* Pastikan padding dan border tidak mempengaruhi lebar elemen */
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f1f1f1;
-    text-align: center;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column; /* Menyusun elemen secara vertikal */
-    min-height: 100vh; /* Membuat body setinggi layar */
+    display: flex;               /* Membuat body menggunakan flexbox */
+    flex-direction: column;      /* Menyusun elemen secara vertikal */
+    min-height: 100vh;           /* Membuat body setinggi layar */
+    width: 100%;
 }
 
-/* Navbar tetap di atas, gunakan sticky agar tidak mengganggu layout */
+/* Navbar */
 .navbar {
     width: 100%; /* Memastikan navbar 100% lebar */
     position: sticky; /* Menggunakan sticky agar tetap di atas saat scrolling */
@@ -26,10 +32,12 @@ body {
     box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
 }
 
+/* Logo */
 .logo img {
     width: 120px;
 }
 
+/* Navbar links */
 .nav-links a {
     text-decoration: none;
     padding: 10px 20px;
@@ -38,7 +46,6 @@ body {
     border-radius: 20px;
     transition: 0.3s;
 }
-
 .nav-links a:hover, .nav-links a.active {
     background-color: #B0FD14;
 }
@@ -47,45 +54,71 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    margin-top: 50px;
     gap: 30px;
-    margin-top: 100px; /* Memberi ruang setelah navbar */
-    margin-bottom: 20px; /* Memberi ruang sebelum footer */
-    flex: 1; /* Flex akan mengambil ruang sisa, memastikan footer tetap di bawah */
+    padding: 0 20px;
+    flex: 1; /* Memastikan konten ini mengambil ruang yang tersedia */
+    width: 100%;  /* Pastikan kontainer mengambil lebar penuh */
+    box-sizing: border-box;
 }
 
 /* Gambar dalam kontainer */
 .image-container img {
-    width: 300px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
 }
 
 /* Desain kontainer teks */
 .text-container {
     background-color: #98A382;
-    padding: 20px;
+    padding: 30px;
     border-radius: 15px;
     color: white;
     text-align: left;
-    width: 50%;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.contact-btn {
-    display: inline-block;
-    padding: 10px 20px;
+/* Judul dan teks */
+.text-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.text-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Input field styling */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+/* Tombol Kirim */
+button {
+    padding: 12px 25px;
     background-color: #B0FD14;
     color: black;
     font-weight: bold;
-    border-radius: 10px;
-    text-decoration: none;
-    transition: 0.3s;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
-
-.contact-btn:hover {
-    background-color: #B0FD14;
+button:hover {
+    background-color: #9cc117;
 }
 
 /* Footer Styling */
-
 .footer {
     background-color: #6a705d;
     color: white;

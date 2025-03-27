@@ -26,10 +26,19 @@ require("header.php");
     </div>
     <div class="container">
         <div class="image-container">
+            <img src="img/edutk.PNG" alt="Coding Image"> <!-- Sesuaikan dengan file gambar utama -->
+        </div>
+        <div class="text-container">
+            <h2>2. Website EDUTK Games</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dicta deleniti est, facilis reprehenderit veritatis nobis recusandae fuga impedit eius corrupti dolore dolorem deserunt sint voluptatum, dolorum, error molestiae libero.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="image-container">
             <img src="img/bengkel_kenzie.PNG" alt="Coding Image"> <!-- Sesuaikan dengan file gambar utama -->
         </div>
         <div class="text-container">
-            <h2>2. Website BENGKEL KENZIE</h2>
+            <h2>3. Website BENGKEL KENZIE</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dicta deleniti est, facilis reprehenderit veritatis nobis recusandae fuga impedit eius corrupti dolore dolorem deserunt sint voluptatum, dolorum, error molestiae libero.</p>
         </div>
     </div>
@@ -38,7 +47,7 @@ require("header.php");
             <img src="img/pakar_perkembangan.jpeg" alt="Coding Image"> <!-- Sesuaikan dengan file gambar utama -->
         </div>
         <div class="text-container">
-            <h4>3. Website SISTEM DETEKSI PERKEMBANGAN ANAK USIA DINI</h4>
+            <h4>4. Website SISTEM DETEKSI PERKEMBANGAN ANAK USIA DINI</h4>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dicta deleniti est, facilis reprehenderit veritatis nobis recusandae fuga impedit eius corrupti dolore dolorem deserunt sint voluptatum, dolorum, error molestiae libero.</p>
         </div>
     </div>
@@ -47,7 +56,7 @@ require("header.php");
             <img src="img/sistem_pakar.jpeg" alt="Coding Image"> <!-- Sesuaikan dengan file gambar utama -->
         </div>
         <div class="text-container">
-            <h2>4. Website SISTEM PERKEMBANGAN DARI CP</h2>
+            <h2>5. Website SISTEM PERKEMBANGAN DARI CP</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dicta deleniti est, facilis reprehenderit veritatis nobis recusandae fuga impedit eius corrupti dolore dolorem deserunt sint voluptatum, dolorum, error molestiae libero.</p>
         </div>
     </div>
@@ -56,12 +65,12 @@ require("header.php");
             <img src="img/angkringan.PNG" alt="Coding Image"> <!-- Sesuaikan dengan file gambar utama -->
         </div>
         <div class="text-container">
-            <h2>5. Website ANGKRINGAN (DESIGN)</h2>
+            <h2>6. Website ANGKRINGAN (DESIGN)</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dicta deleniti est, facilis reprehenderit veritatis nobis recusandae fuga impedit eius corrupti dolore dolorem deserunt sint voluptatum, dolorum, error molestiae libero.</p>
         </div>
     </div>
-    <footer>
-        copy Fernand 2025
-    </footer>
+    <?php
+        require("footer.php");
+    ?>
 </body>
 </html>
