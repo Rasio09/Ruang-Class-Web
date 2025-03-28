@@ -20,7 +20,7 @@ require("header.php");
                 <p style="text-align: justify; text-indent: 30px; margin-top: 0; margin-bottom: 10px;">
                 Namun tidak menutup kemungkinan juga web ini dikembangkan juga untuk mewadahi anak-anak yang ingin terjun ke pemrograman website. Dimana anak-anak mulai dari usia 10 tahun ke atas.
                 </p>
-            <a href="contact.php" class="contact-btn" style="margin-top: 50px;">Contact Me</a>
+            <a href="daftar.php" class="contact-btn" style="margin-top: 20px; margin-left: 400px;">Contact Me</a>
         </div>
     </div>
 
@@ -59,7 +59,7 @@ require("header.php");
                 <p style="text-align: justify; text-indent: 30px; margin-top: 0; margin-bottom: 10px;">
                 Namun tidak menutup kemungkinan juga web ini dikembangkan juga untuk mewadahi anak-anak yang ingin terjun ke pemrograman website. Dimana anak-anak mulai dari usia 10 tahun ke atas.
                 </p>
-            <a href="contact.php" class="contact-btn" style="margin-top: 50px;">Contact Me</a>
+            <a href="contact.php" class="contact-btn" style="margin-top: 20px;">Contact Me</a>
         </div>
     </div>
 

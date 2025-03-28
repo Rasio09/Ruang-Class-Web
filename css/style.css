@@ -152,3 +152,45 @@ body {
     font-size: 20px;
     cursor: pointer;
 }
+
+/* css about-dev */
+.container-dev {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+.profile-dev img {
+    width: 100px;
+    border-radius: 50%;
+}
+.section-dev {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #a2a97f;
+    border-radius: 10px;
+}
+.social-icons-dev img {
+    width: 40px;
+    margin: 10px;
+}
+.certificates-dev {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.certificate-dev {
+    width: 45%;
+    margin: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.certificate-dev img {
+    width: 100%;
+    border-radius: 5px;
+}
+.experience-icons-dev img {
+    width: 50px;
+    margin: 10px;
+}
