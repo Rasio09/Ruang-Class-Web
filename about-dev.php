@@ -10,16 +10,17 @@ require("header.php");
     ?>
     
     <div class="container-dev">
-        <h2><b>About</b> Me</h2>
+        <h2><b>About</b> Dev</h2>
         <div class="profile-dev">
-            <img src="profile-placeholder.png" alt="Profile Picture">
+            <img src="img/pas foto.jpg" alt="Profile Picture">
         </div>
         <h3>RASIO FERNANDIS</h3>
         <div class="social-icons-dev">
-            <img src="linkedin.png" alt="LinkedIn">
-            <img src="github.png" alt="GitHub">
-            <img src="hackerrank.png" alt="HackerRank">
-            <img src="instagram.png" alt="Instagram">
+            <a href="https://www.linkedin.com/in/rasiofernandis09/"><img src="img/medsos/link.png" alt="LinkedIn"></a>
+            <a href="https://github.com/Rasio09"><img src="img/medsos/github.png" alt="GitHub"></a>
+            <a href="https://linktr.ee/Rasio_Fernandis"><img src="img/medsos/linktree.png" alt="LinkTree"></a>
+            <a href=""><img src="img/medsos/ig.png" alt="Instagram"></a>
+            
         </div>
         <div class="section-dev">
             <h3>ABOUT ME</h3>
