@@ -24,7 +24,9 @@ require("header.php");
         </div>
         <div class="section-dev">
             <h3>ABOUT ME</h3>
-            <p>about meeabout meeabout meeabout meeabout meeabout mee...</p>
+            <p style="text-align: justify !important;">
+                Saya Rasio Fernandis Fresh Graduate Jurusan Teknik Informatika dari Universitas Nusantara PGRI Kediri dengan IPK 3.85 dan menguasai keahlian dalam Microsoft Office, pemrograman, dan basis data. Berpengalaman dalam membangun website mulai dari 0. Memiliki kemampuan berpikir kreatif dan mampu mengolah waktu secara efektif, mampu berkolaborasi dengan tim dan terbuka untuk terus belajar. Terbiasa bekerja part time pada saat kuliah menjadi guru bantu dan juga freelance sebagai data entry dan developer website.
+            </p>
         </div>
         <h3>EDUCATION</h3>
         <p style="font-weight: bold;">FRESH GRADUATE S1 JURUSAN TEKNIK INFORMATIKA</p>
@@ -35,15 +37,24 @@ require("header.php");
         <div class="certificates-dev">
             <div class="certificate-dev">
                 <p>1</p>
-                <p>PENELITIAN PUBLIKASI JURNAL INTERNASIONAL</p>
+                <p>PENELITIAN PUBLIKASI JURNAL INTERNASIONAL (indeks SCOPUS)</p>
                 <p>ICSINTESA</p>
+                <p style="text-align:center;">Judul Penelitian : <br> "Topic Modeling Using Latent Dirichlet Allocation Method Based On Child Anecdotal Record Data"</p>
+                <a href="https://ieeexplore.ieee.org/abstract/document/10747976" style="text-align:center;">Link Publikasi</a>
             </div>
             <div class="certificate-dev">
                 <p>2</p>
                 <p>PENELITIAN PUBLIKASI JURNAL NASIONAL</p>
                 <p>STAINS</p>
+                <p style="text-align:center;">Judul Penelitian : <br> "Implementasi Deteksi Bahasa Isyarat Tangan Menggunakan OpenCV dan MediaPipe"</p>
+                <a href="https://proceeding.unpkediri.ac.id/index.php/stains/article/view/4337" style="text-align:center;">Link Publikasi</a>
             </div>
-            <div class="certificate-dev">about meeabout meeabout meeabout...</div>
+            <div class="certificate-dev">
+                <p>3</p>
+                <p>PENELITIAN SKRIPSI</p>
+                <p style="text-align:center;">Judul Penelitian : <br> "PENERAPAN LATENT DIRICHLET ALLOCATION PADA KLASIFIKASI ANAK TAMAN KANAK-KANAK (TK) BERDASARKAN CATATAN ANEKDOT"</p>
+                <a href="https://repository.unpkediri.ac.id/15159/" style="text-align:center;">Link Publikasi</a>
+            </div>
         </div>
         <h3>SERTIFIKASI</h3>
         <div class="certificates-dev">
