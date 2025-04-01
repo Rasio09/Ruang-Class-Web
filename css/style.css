@@ -181,7 +181,7 @@ body {
 .certificate-dev {
     width: 45%;
     margin: 10px;
-    background-color: #fff;
+    background-color: #a2a97f;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -191,6 +191,6 @@ body {
     border-radius: 5px;
 }
 .experience-icons-dev img {
-    width: 50px;
+    width: 100px;
     margin: 10px;
 }

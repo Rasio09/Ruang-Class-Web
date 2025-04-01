@@ -10,7 +10,7 @@ require("header.php");
     ?>
     
     <div class="container-dev">
-        <h2><b>About</b> Dev</h2>
+        <h1><span>About</span> - Dev</h1>
         <div class="profile-dev">
             <img src="img/pas foto.jpg" alt="Profile Picture">
         </div>
@@ -23,17 +23,17 @@ require("header.php");
             
         </div>
         <div class="section-dev">
-            <h3>ABOUT ME</h3>
-            <p style="text-align: justify !important;">
-                Saya Rasio Fernandis Fresh Graduate Jurusan Teknik Informatika dari Universitas Nusantara PGRI Kediri dengan IPK 3.85 dan menguasai keahlian dalam Microsoft Office, pemrograman, dan basis data. Berpengalaman dalam membangun website mulai dari 0. Memiliki kemampuan berpikir kreatif dan mampu mengolah waktu secara efektif, mampu berkolaborasi dengan tim dan terbuka untuk terus belajar. Terbiasa bekerja part time pada saat kuliah menjadi guru bantu dan juga freelance sebagai data entry dan developer website.
+            <h2>ABOUT ME</h2>
+            <p style="text-align: justify !important; text-indent: 2em; line-height: 25px;">
+                Saya <span style="font-weight:bold;">Rasio Fernandis</span> Fresh Graduate Jurusan Teknik Informatika dari <span style="font-weight:bold; font-style:italic;">Universitas Nusantara PGRI Kediri</span> dengan IPK 3.85 dan menguasai keahlian dalam Microsoft Office, pemrograman, dan basis data. Berpengalaman dalam membangun website sederhana mulai dari 0. Memiliki kemampuan berpikir kreatif dan mampu mengolah waktu secara efektif, mampu berkolaborasi dengan tim dan terbuka untuk terus belajar. Terbiasa bekerja part time pada saat kuliah menjadi guru bantu dan juga freelance sebagai data entry dan developer website.
             </p>
         </div>
-        <h3>EDUCATION</h3>
-        <p style="font-weight: bold;">FRESH GRADUATE S1 JURUSAN TEKNIK INFORMATIKA</p>
-        <p style="font-weight: bold;">UNIVERSITAS NUSANTARA PGRI KEDIRI</p>
-        <p style="font-weight: bold;">IPK 3.85</p>
+        <h2>EDUCATION</h2>
+        <p style="font-weight: bold; font-style: italic;">FRESH GRADUATE S1 JURUSAN TEKNIK INFORMATIKA</p>
+        <p style="font-weight: bold; font-style: italic;">UNIVERSITAS NUSANTARA PGRI KEDIRI</p>
+        <p style="font-weight: bold; font-style: italic;">IPK 3.85</p>
         <p></p>
-        <h3>RESEARCH (Penelitian)</h3>
+        <h2>RESEARCH (Penelitian)</h2>
         <div class="certificates-dev">
             <div class="certificate-dev">
                 <p>1</p>
@@ -56,7 +56,7 @@ require("header.php");
                 <a href="https://repository.unpkediri.ac.id/15159/" style="text-align:center;">Link Publikasi</a>
             </div>
         </div>
-        <h3>SERTIFIKASI</h3>
+        <h2>SERTIFIKASI</h2>
         <div class="certificates-dev">
             <div class="certificate-dev">
                 <img src="sertif1.jpg" alt="Sertifikat 1">
@@ -75,7 +75,7 @@ require("header.php");
             </div>
         </div>
         <div class="section-dev">
-            <h3>EXPERIENCE AND SKILL</h3>
+            <h2>My EXPERIENCE AND My SKILL</h2>
             <div class="experience-icons-dev">
                 <img src="img/skill/html.png" alt="HTML">
                 <img src="img/skill/css.png" alt="CSS">
