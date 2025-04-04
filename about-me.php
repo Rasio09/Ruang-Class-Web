@@ -10,7 +10,7 @@ require("header.php");
     ?>
     <div class="container">
         <div class="image-container">
-            <img src="img/dashboard.PNG" alt="Coding Image"> <!-- Sesuaikan dengan file gambar utama -->
+            <img src="img/ruang_class_web.png" alt="Coding Image"> <!-- Sesuaikan dengan file gambar utama -->
         </div>
         <div class="text-container">
             <h2>About Me Ruang Class Web</h2>
@@ -34,7 +34,7 @@ require("header.php");
 
     <div class="container">
         <div class="image-container">
-            <img src="img/dashboard.PNG" alt="Coding Image"> <!-- Sesuaikan dengan file gambar utama -->
+            <img src="img/ruang_baca_tulis.png" alt="Coding Image"> <!-- Sesuaikan dengan file gambar utama -->
         </div>
         <div class="text-container">
             <h2>About Me Ruang Class Baca Tulis Hitung</h2>
