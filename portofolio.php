@@ -11,7 +11,7 @@ require("header.php");
     <div class="container">
         <div class="text-container" style="width: 80%; box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3); text-align: center; background-color: #777777; height: 80px;">
             <h2 style="text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);">
-                BERIKUT INI ADALAH LIST DARI BEBERAPA PROJECT YANG DIKEMBANGKAN
+                BERIKUT INI ADALAH LIST DARI BEBERAPA PROJECT YANG SUDAH DIKEMBANGKAN OLEH RUANG CLASS WEB
             </h2>
         </div>
     </div>
@@ -21,7 +21,7 @@ require("header.php");
         </div>
         <div class="text-container">
             <h2>1. Website BENGKEL JAGO</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dicta deleniti est, facilis reprehenderit veritatis nobis recusandae fuga impedit eius corrupti dolore dolorem deserunt sint voluptatum, dolorum, error molestiae libero.</p>
+            <p style="text-align: justify; text-indent: 30px;">Website bengkel jago ini merupakan website yang digunakan untuk melakukan promosi serta menjadi website portofolio dari bengkel jago sendiri. dari web ini didalamnya juga terdapat beberapa fitur yang dapat dilihat dan digunakan seperti promo yang ada, penanganan apa saja yang diperlukan bagi customer, tempat atau lokasi dari bengkel jago dann juga terdapat pengiriman pesan atau form yang dapat digunakan oleh customer untuk menghubungi pihak bengkel jago jika ingin konsultasi ataupun melakukan pembenahan pada mobil anda.</p>
         </div>
     </div>
     <div class="container">
@@ -30,7 +30,7 @@ require("header.php");
         </div>
         <div class="text-container">
             <h2>2. Website EDUTK Games</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dicta deleniti est, facilis reprehenderit veritatis nobis recusandae fuga impedit eius corrupti dolore dolorem deserunt sint voluptatum, dolorum, error molestiae libero.</p>
+            <p style="text-align: justify; text-indent: 30px;">Website edutk games merupakan website yang dikembangkan untuk membuat beberapa game menjadi satu website saja yang mudah diakses oleh user pengguna. user pengguna pada web ini adalah ditujukan anak-anak mulai sekolah pada jenjang TK (Taman Kanak-Kanak). fitur-fitur dalam game ini ada game anak yang bisa dimainkan mulai dari menghubungkan objek, berhitung, menangkap angka, dan lainnya. lalu fitur lainnya juga seperti user atau pengguna bisa langsung melakukan review hingga request game yang dikembangkan kepada developer.</p>
         </div>
     </div>
     <div class="container">
