@@ -39,7 +39,7 @@ require("header.php");
         </div>
         <div class="text-container">
             <h2>3. Website BENGKEL KENZIE</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dicta deleniti est, facilis reprehenderit veritatis nobis recusandae fuga impedit eius corrupti dolore dolorem deserunt sint voluptatum, dolorum, error molestiae libero.</p>
+            <p>Website bengkel kenzie ini merupakan website yang digunakan untuk melakukan promosi serta menjadi website portofolio dari bengkel kenzie sendiri. dari web ini didalamnya juga terdapat beberapa fitur yang dapat dilihat dan digunakan seperti promo yang ada, penanganan apa saja yang diperlukan bagi customer, tempat atau lokasi dari bengkel dann juga terdapat nomor ataupun identitas media sosial admin bengkel jika ingin melakukan reservasi panggilan untuk melakukan pembenahan mobil ataupun jika ingin konsultasi terlebih dahulu.</p>
         </div>
     </div>
     <div class="container">
@@ -48,7 +48,7 @@ require("header.php");
         </div>
         <div class="text-container">
             <h4>4. Website SISTEM DETEKSI PERKEMBANGAN ANAK USIA DINI</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dicta deleniti est, facilis reprehenderit veritatis nobis recusandae fuga impedit eius corrupti dolore dolorem deserunt sint voluptatum, dolorum, error molestiae libero.</p>
+            <p>Website sistem deteksi perkembangan anak usia dini merupakan website yang dikembangkan didalamnya terdapat algoritma AI yang dapat mendeteksi perkembangan anak jika menginputkan sesuai dengan apa yang diinputkan oleh user pengguna. fitur ini terdapat beberapa yaitu inputan user dan hasil output.</p>
         </div>
     </div>
     <div class="container">
