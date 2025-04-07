@@ -39,7 +39,7 @@ require("header.php");
         </div>
         <div class="text-container">
             <h2>3. Website BENGKEL KENZIE</h2>
-            <p>Website bengkel kenzie ini merupakan website yang digunakan untuk melakukan promosi serta menjadi website portofolio dari bengkel kenzie sendiri. dari web ini didalamnya juga terdapat beberapa fitur yang dapat dilihat dan digunakan seperti promo yang ada, penanganan apa saja yang diperlukan bagi customer, tempat atau lokasi dari bengkel dann juga terdapat nomor ataupun identitas media sosial admin bengkel jika ingin melakukan reservasi panggilan untuk melakukan pembenahan mobil ataupun jika ingin konsultasi terlebih dahulu.</p>
+            <p style="text-align: justify; text-indent: 30px;">Website bengkel kenzie ini merupakan website yang digunakan untuk melakukan promosi serta menjadi website portofolio dari bengkel kenzie sendiri. dari web ini didalamnya juga terdapat beberapa fitur yang dapat dilihat dan digunakan seperti promo yang ada, penanganan apa saja yang diperlukan bagi customer, tempat atau lokasi dari bengkel dann juga terdapat nomor ataupun identitas media sosial admin bengkel jika ingin melakukan reservasi panggilan untuk melakukan pembenahan mobil ataupun jika ingin konsultasi terlebih dahulu.</p>
         </div>
     </div>
     <div class="container">
@@ -48,7 +48,7 @@ require("header.php");
         </div>
         <div class="text-container">
             <h4>4. Website SISTEM DETEKSI PERKEMBANGAN ANAK USIA DINI</h4>
-            <p>Website sistem deteksi perkembangan anak usia dini merupakan website yang dikembangkan didalamnya terdapat algoritma AI yang dapat mendeteksi perkembangan anak jika menginputkan sesuai dengan apa yang diinputkan oleh user pengguna. fitur ini terdapat beberapa yaitu inputan user dan hasil output.</p>
+            <p style="text-align: justify; text-indent: 30px;">Website sistem deteksi perkembangan anak usia dini merupakan website yang dikembangkan didalamnya terdapat algoritma AI yang dapat mendeteksi perkembangan anak jika menginputkan sesuai dengan apa yang diinputkan oleh user pengguna. fitur ini terdapat beberapa yaitu inputan user dan hasil output.</p>
         </div>
     </div>
     <div class="container">
@@ -57,7 +57,7 @@ require("header.php");
         </div>
         <div class="text-container">
             <h2>5. Website SISTEM PERKEMBANGAN DARI CP</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dicta deleniti est, facilis reprehenderit veritatis nobis recusandae fuga impedit eius corrupti dolore dolorem deserunt sint voluptatum, dolorum, error molestiae libero.</p>
+            <p style="text-align: justify; text-indent: 30px;">Website sistem pengembangan diri dari berdasarkan cp atau capaian perkembangan anak adalah sistem yang mampu mendeteksi perkembangan anak lebih spesifik yang terdapat juga algoritma didalamnya yang mampu menghasilkan keakuratan data sesuai dengan inputan user pangguna dalam memilih mana yang sesuai dengan anak. sistem ini juga digunakan untuk menunjang anak dikemudian hari agar perkembangan dapat optimal pada setiap fase.</p>
         </div>
     </div>
     <div class="container">
@@ -66,7 +66,7 @@ require("header.php");
         </div>
         <div class="text-container">
             <h2>6. Website ANGKRINGAN (DESIGN)</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dicta deleniti est, facilis reprehenderit veritatis nobis recusandae fuga impedit eius corrupti dolore dolorem deserunt sint voluptatum, dolorum, error molestiae libero.</p>
+            <p style="text-align: justify; text-indent: 30px;">Website desain angkringan ini hanya wesbite portofolio yang saya kembangkan hanya untuk desain saja.</p>
         </div>
     </div>
     <?php
