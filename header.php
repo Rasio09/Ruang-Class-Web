@@ -19,4 +19,25 @@
 
     <!-- icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script>
+        function sendMessage() {
+            // Get form values
+            var name = document.getElementById("name2").value;
+            var phone = document.getElementById("phone2").value;
+            var address = document.getElementById("address").value;
+
+            // Format the message with proper encoding
+            var message = "Nama: " + encodeURIComponent(name) + "%0A" +
+                          "No Hp: " + encodeURIComponent(phone) + "%0A" +
+                          "Alamat: " + encodeURIComponent(address) + "%0A%0A" +
+                          "DAFTAR PROGRAM DI RUANG CLASS WEB";
+
+            // WhatsApp link to send the message
+            var whatsappLink = "https://wa.me/6287861674100?text=" + message;
+
+            // Redirect to WhatsApp
+            window.open(whatsappLink, '_blank');
+        }
+    </script>
+
 </head>
