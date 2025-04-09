@@ -15,12 +15,13 @@
             var name = document.getElementById("name2").value;
             var phone = document.getElementById("phone2").value;
             var address = document.getElementById("address").value;
+            var pilihProgram = document.getElementById("pilihProgram").value;
 
             // Format the message with proper encoding
-            var message = "Nama: " + encodeURIComponent(name) + "%0A" +
-                          "No Hp: " + encodeURIComponent(phone) + "%0A" +
-                          "Alamat: " + encodeURIComponent(address) + "%0A%0A" +
-                          "DAFTAR PROGRAM DI RUANG CLASS WEB";
+            var message = "Nama  " + encodeURIComponent(name) + "%0A" +
+                          "No Hp : " + encodeURIComponent(phone) + "%0A" +
+                          "Alamat : " + encodeURIComponent(address) + "%0A" +
+                          "Daftar Program yang Diambil : " + encodeURIComponent(pilihProgram) + "%0A%0A";
 
             // WhatsApp link to send the message
             var whatsappLink = "https://wa.me/6287861674100?text=" + message;
@@ -37,10 +38,10 @@
 
     <div class="container">
         <div class="text-container" style="width:100%;">
+            <h2 style="text-align: center;">Daftar Sekarang Juga</h2>
              <div class="image-container" style="text-align: center; margin-bottom: 20px;">
                     <img src="img/daftar.PNG" alt="Coding Image" style="max-width: 50%; height: auto;">
             </div>
-            <h2 style="text-align: center;">Daftar Sekarang</h2>
             <p style="text-align: justify;">Jika Berminat untuk daftar atau melanjutkan langsung saja isi form berikut ini</p>
             
             <form id="contactForm2">
@@ -52,6 +53,14 @@
 
                 <label for="address">Alamat:</label>
                 <input type="text" id="address" name="address" class="input-field" placeholder="Masukkan alamat" required>
+
+                <label for="pilihProgram">Pilih Program :</label>
+                <div class="input-field" style="color:black;">
+                    <input type="radio" name="pilihProgram" id="pilihProgram" value="Ruang Class Web"> Ruang Class Web
+                    <input type="radio" name="pilihProgram" id="pilihProgram" value="Ruang Class Baca Tulis Hitung"> Ruang Class Baca Tulis Hitung 
+                </div>
+            
+                <br>
                 
                 <button type="button" onclick="sendMessage()">Kirim Wa Admin</button>
             </form>
