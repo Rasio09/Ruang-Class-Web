@@ -37,6 +37,9 @@
 
     <div class="container">
         <div class="text-container" style="width:100%;">
+             <div class="image-container" style="text-align: center; margin-bottom: 20px;">
+                    <img src="img/daftar.PNG" alt="Coding Image" style="max-width: 50%; height: auto;">
+            </div>
             <h2 style="text-align: center;">Daftar Sekarang</h2>
             <p style="text-align: justify;">Jika Berminat untuk daftar atau melanjutkan langsung saja isi form berikut ini</p>
             
