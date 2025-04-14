@@ -241,3 +241,60 @@
                 margin-left:130px;
             }
         }
+
+        /* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+    /* Menyesuaikan .container menjadi layout kolom dan gambar serta form dalam satu baris */
+    .container {
+        flex-direction: column; /* Pastikan elemen (gambar dan teks) ditampilkan secara vertikal */
+        align-items: center;
+        gap: 20px;
+    }
+    
+    /* Menyesuaikan gambar agar lebih kecil pada layar kecil */
+    .image-container img {
+        width: 100%; /* Membuat gambar responsif */
+        max-width: 400px; /* Membatasi gambar agar tidak terlalu besar */
+        height: auto; /* Memastikan tinggi gambar tetap proporsional */
+    }
+
+    /* Menyesuaikan kontainer teks */
+    .text-container {
+        width: 100%; /* Memastikan teks menggunakan lebar penuh */
+        max-width: 100%; /* Membiarkan teks menggunakan seluruh lebar */
+        padding: 20px;
+    }
+
+    /* Menyesuaikan input field untuk ukuran lebih kecil */
+    .input-field {
+        padding: 8px;
+        font-size: 14px; /* Mengurangi ukuran font input */
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 14px; /* Menyesuaikan ukuran font tombol */
+    }
+}
+
+/* Responsif untuk perangkat lebih kecil (mobile) */
+@media (max-width: 480px) {
+    /* Mengurangi padding dan menyesuaikan ukuran tombol */
+    .input-field {
+        padding: 6px;
+        font-size: 12px; /* Ukuran input yang lebih kecil */
+    }
+
+    button {
+        padding: 8px 15px;
+        font-size: 12px; /* Ukuran font tombol lebih kecil */
+    }
+
+    .text-container h2 {
+        font-size: 20px; /* Mengurangi ukuran font judul */
+    }
+
+    .text-container p {
+        font-size: 14px; /* Mengurangi ukuran font teks */
+    }
+}
