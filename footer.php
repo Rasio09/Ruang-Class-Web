@@ -15,7 +15,7 @@
             <a href="daftar.php">Daftar</a>
         </div>
         <div>
-            <h3 style="text-decoration:underline; margin-left:130px;">Follow Us</h3>
+            <h3 style="text-decoration:underline;" class="followUs">Follow Us</h3>
             <div class="social-icons">
                 <a href="#"><i class="fab fa-youtube"></i></a>
                 <a href="#"><i class="fab fa-instagram"></i></a>
