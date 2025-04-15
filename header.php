@@ -40,4 +40,12 @@
         }
     </script>
 
+    <script>
+        // JavaScript for toggling the navbar in smaller screens
+        function toggleNavbar() {
+            const navbarLinks = document.querySelector('.nav-links');
+            navbarLinks.classList.toggle('active');
+        }
+    </script>
+
 </head>
