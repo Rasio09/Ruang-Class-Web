@@ -9,7 +9,7 @@ require("header.php");
         require("navbar.php");
     ?>
     <div class="container">
-        <div class="text-container" style="width: 80%; box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3); text-align: center; background-color: #777777; height: 80px;">
+        <div class="text-container text-container-judul" style="">
             <h2 style="text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);">
                 BERIKUT INI ADALAH LIST DARI BEBERAPA PROJECT YANG SUDAH DIKEMBANGKAN OLEH RUANG CLASS WEB
             </h2>

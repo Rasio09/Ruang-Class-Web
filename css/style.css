@@ -76,6 +76,13 @@ body {
     width: 50%;
 }
 
+.text-container-judul{
+    width: 80%; 
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3); 
+    text-align: center; 
+    background-color: #777777; 
+}
+
 .contact-btn {
     display: inline-block;
     padding: 10px 20px;
