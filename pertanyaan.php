@@ -43,7 +43,9 @@
                 <label for="question">Tanya:</label>
                 <textarea id="question" name="question" class="input-field" placeholder="Tuliskan pertanyaan Anda di sini" required></textarea>
                 
-                <button type="button" onclick="sendMessage()">Kirim Wa Admin</button>
+                <div class="center-container">
+                    <button type="button" onclick="sendMessage()" class="contact-btn">Kirim Wa Admin</button>
+                </div>
             </form>
         </div>
     </div>

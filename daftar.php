@@ -61,13 +61,21 @@
 
                 <label for="pilihProgram">Pilih Program :</label>
                 <div class="input-field" style="color:black;">
-                    <input type="radio" name="pilihProgram" id="pilihProgram" value="Ruang Class Web"> Ruang Class Web
-                    <input type="radio" name="pilihProgram" id="pilihProgram" value="Ruang Class Baca Tulis Hitung"> Ruang Class Baca Tulis Hitung 
+                    <label style="font-weight: bold;">
+                        <input type="radio" name="pilihProgram" value="Ruang Class Web">
+                        Ruang Class Web
+                    </label><br>
+                    <label style="font-weight: bold;">
+                        <input type="radio" name="pilihProgram" value="Ruang Class Baca Tulis Hitung">
+                        Ruang Class Baca Tulis Hitung
+                    </label>
                 </div>
             
                 <br>
                 
-                <button type="button" onclick="sendMessage()">Kirim Wa Admin</button>
+                <div class="center-container">
+                    <button type="button" onclick="sendMessage()" class="contact-btn">Kirim Wa Admin</button>
+                </div>
             </form>
         </div>
     </div>

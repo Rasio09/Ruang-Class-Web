@@ -17,13 +17,13 @@ body {
     min-height: 100vh; /* Membuat body setinggi layar */
 }
 
-/* Navbar tetap di atas, gunakan sticky agar tidak mengganggu layout */
+/* Navbar */
 .navbar {
     width: 100%; /* Memastikan navbar 100% lebar */
     position: sticky; /* Menggunakan sticky agar tetap di atas saat scrolling */
     top: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between; /* Menambahkan space di antara logo dan menu */
     align-items: center;
     background-color: #98A382;
     padding: 15px;
@@ -33,8 +33,16 @@ body {
     box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
 }
 
+/* Logo */
 .logo img {
     width: 120px;
+}
+
+/* Navbar links */
+.nav-links {
+    display: flex;
+    gap: 20px;
+    transition: transform 0.3s ease-in-out;
 }
 
 .nav-links a {
@@ -45,7 +53,6 @@ body {
     border-radius: 20px;
     transition: 0.3s;
 }
-
 .nav-links a:hover, .nav-links a.active {
     background-color: #B0FD14;
 }
@@ -92,6 +99,7 @@ body {
     border-radius: 10px;
     text-decoration: none;
     transition: 0.3s;
+    align-items: center;
 }
 
 .contact-btn:hover {

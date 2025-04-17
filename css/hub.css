@@ -110,7 +110,12 @@
         }
         
         /* Tombol Kirim */
-        button {
+        .center-container {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .contact-btn {
             padding: 12px 25px;
             background-color: #B0FD14;
             color: black;
@@ -119,6 +124,7 @@
             border: none;
             cursor: pointer;
             transition: background-color 0.3s;
+            border: 1px solid black;
         }
         button:hover {
             background-color: #9cc117;
