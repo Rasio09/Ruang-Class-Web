@@ -257,14 +257,10 @@ body {
             .navbar .toggle-btn {
                 display: block;
             }
-            h3.followUs{
-                margin-left:166px;
-            }
+            
         }
         @media (min-width: 600px){
-            h3.followUs{
-                margin-left:130px;
-            }
+            /* code  */
         }
 
         /* Responsif untuk layar kecil */

@@ -20,7 +20,7 @@ require("header.php");
                 <p style="text-align: justify; text-indent: 30px; margin-top: 0; margin-bottom: 10px;">
                 Namun tidak menutup kemungkinan juga web ini dikembangkan juga untuk mewadahi anak-anak yang ingin terjun ke pemrograman website. Dimana anak-anak mulai dari usia 10 tahun ke atas.
                 </p>
-            <a href="daftar.php" class="contact-btn" style="margin-top: 20px; margin-left: 400px;">Contact Me</a>
+            <a href="daftar.php" class="contact-btn" >Contact Me</a>
         </div>
     </div>
 
@@ -44,7 +44,7 @@ require("header.php");
                 <li>Wajib memiliki laptop sendiri</li>
                 <li>Mulai anak berumur 10 tahun keatas</li>
             </ul>
-            <a href="daftar.php" class="contact-btn" style="margin-top: 20px; margin-left: 400px;">Segera Daftar</a>
+            <a href="daftar.php" class="contact-btn">Segera Daftar</a>
         </div>
     </div>
 
@@ -60,7 +60,7 @@ require("header.php");
                 <li>Anak berumur 6 tahun keatas</li>
                 <li>Anak sudah sekolah pada jenjang SD (Sekolah Dasar)</li>
             </ul>
-            <a href="daftar.php" class="contact-btn" style="margin-top: 20px; margin-left: 400px;">Segera Daftar</a>
+            <a href="daftar.php" class="contact-btn">Segera Daftar</a>
         </div>
     </div>
 
@@ -73,9 +73,9 @@ require("header.php");
             <p style="text-align: justify; text-indent: 30px;">
                 Website EDUTK GAMES merupakan website yang dikembangkan untuk membuat beberapa game menjadi satu website saja yang mudah diakses oleh user pengguna. user pengguna pada web ini adalah ditujukan anak-anak mulai sekolah pada jenjang TK (Taman Kanak-Kanak). fitur-fitur dalam game ini ada game anak yang bisa dimainkan mulai dari menghubungkan objek, berhitung, menangkap angka, dan lainnya. lalu fitur lainnya juga seperti user atau pengguna bisa langsung melakukan review hingga request game yang dikembangkan kepada developer.
             </p>
-            <a href="portofolio.php" class="contact-btn" style="margin-top: 20px; margin-left: 430px;">Lihat All</a>
+            <a href="portofolio.php" class="contact-btn">Lihat All</a>
         </div>
-    </div>
+    </div> 
 
 
     <div class="container" style="display: flex; justify-content: center; align-items: flex-start; margin-top: 50px; gap: 30px; padding: 0 20px; flex: 1; width: 100%; box-sizing: border-box;">
